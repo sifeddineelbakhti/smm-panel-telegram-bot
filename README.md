@@ -21,7 +21,7 @@ Create Your Own Social Media Marketing Bot Via Bjs Use Bots.business To Create B
 <li>🍁 Redeem Code</li>
 
 <b>How to Install This Bot to Bots.Business</b>
-<li>First, You have to Copy this URL <a href="https://github.com/FlashComTeam/Smm-Panel-Telegram-Bot.git">Hold this Text and Click Copy Link Address</a></li>
+<li>First, You have to Copy this URL <a href="https://github.com/FlashComTeam/smm-panel-telegram-bot.git">Hold this Text and Click Copy Link Address</a></li>
 <li>Once You Copied Open Bots.Business</li>
 <li>Once You Opened Create a New Bot</li>
 <li>Once You Clicked, Click On Dashbaord On Below</li>
