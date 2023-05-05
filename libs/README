@@ -1,9 +1,9 @@
-<b>Following Libs Must be Installed on Your Bots.Business Bot</b>
-<li> Webhooks</li>
-<li> CoinPayments</li>
-<li> ResourcesLib</li>
-<li> DateTimeFormat</li>
-<li>commonLib</li>
-<li>Random</li>
-<b>
-<p>Make Sure that If the Following Libs we Mentioned installed for your bot then only your bot will work</p>
+Following Libs Must be Installed on Your Bots.Business Bot
+1. Webhooks
+2. CoinPayments
+3. ResourcesLib
+4. DateTimeFormat
+5. comminLib
+6. Random
+
+Make Sure that If the Following Libs we Mentioned installed for your bot then only your bot will work</p>
