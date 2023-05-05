@@ -1,2 +1,9 @@
-This folder contains bot's libraries.
- See more at https://help.bots.business/git/library
+<b>Following Libs Must be Installed on Your Bots.Business Bot</b>
+<li> Webhooks</li>
+<li> CoinPayments</li>
+<li> ResourcesLib</li>
+<li> DateTimeFormat</li>
+<li>commonLib</li>
+<li>Random</li>
+<b>
+<p>Make Sure that If the Following Libs we Mentioned installed for your bot then only your bot will work</p>
