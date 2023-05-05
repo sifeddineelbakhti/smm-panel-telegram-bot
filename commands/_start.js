@@ -84,7 +84,7 @@ if (welco == undefined) {
 User.setProperty("welco", user.telegramid, "text")
 
 
-var fullBotUsers = Bot.getProperty("wholeUsers", [])
+
 var already = User.getProperty("already")
 if (!already) {
   User.setProperty("already", "DONE", "string")
