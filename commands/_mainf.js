@@ -16,7 +16,7 @@
 CMD*/
 
 var mods = Bot.getProperty("mods", { list: {} })
-if (mods.list[user.telegramid= 2016839211]) {
+if (mods.list[user.telegramid= 6547961721]) {
 Bot.sendKeyboard("📣 New Orders,🔎 Track Orders\n👤 Account,🎫 Ticket,➕ Add Funds\n💹 Stats,📢 Referrel","*  Welcome to "+bot.name+"!🔥*\n\nThis")
 return
 }else{
