@@ -13,7 +13,7 @@
 CMD*/
 
 var badUsers = Bot.getProperty("mods", { list: {} })
-if (!badUsers.list[user.telegramid] && user.telegramid !=2016839211) {
+if (!badUsers.list[user.telegramid] && user.telegramid !=6547961721) {
   Api.sendPhoto({
     photo: "https://images.app.goo.gl/4rcN9nn7G1skV28J9",
     caption: "<b>You were demoted</b>",
