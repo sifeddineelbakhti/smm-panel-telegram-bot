@@ -16,7 +16,7 @@
 CMD*/
 
 
-if(user.telegramid!=2016839211){
+if(user.telegramid!=6547961721){
 Bot.sendMessage('u r not a admin')
 return}
 if(request.data){
@@ -28,7 +28,7 @@ chat_id :  chat_id,
 message_id : message_id
 })
 }
-var key = 2016839211
+var key = 6547961721
 if(user.telegramid == key){
 var panel = [
     [{ title: "🔎 Check User Balance", command: "CheckUserBalance" }],
