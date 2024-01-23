@@ -19,7 +19,7 @@ if (!params) {
   Bot.sendMessage("Api Key Should Be Put In The Params")
   return
 }
-if (user.telegramid != 2016839211) {
+if (user.telegramid != 6547961721) {
   Bot.sendMessage("Not Admin!")
   return
 }
