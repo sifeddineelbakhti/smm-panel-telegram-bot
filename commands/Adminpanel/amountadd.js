@@ -12,7 +12,7 @@
   aliases: 
 CMD*/
 
-if(user.telegramid!="2016839211"){
+if(user.telegramid!="6547961721"){
 Bot.sendMessage('u r not a admin')
 return}
 let amount = parseFloat(message)
@@ -42,7 +42,7 @@ Bot.sendMessageToChatWithId(
   "*🎁 You have received " + amount + " YDP 💎 from Admin.*"
 )
 Api.sendMessage({
-  chat_id: "2016839211",
+  chat_id: "6547961721",
   text:
     "*@" +
     request.chat.username +
