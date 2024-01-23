@@ -22,5 +22,5 @@ Bot.runCommand("Pay")
 }else{
 Bot.sendMessage("*Done. It will not take more than 1 hour. You will receive a notification when the balance is added*")
 var button=[[{title:"✅ Confirm",command:"depoapprove"},{title : "❌ Cancel" ,command : "depodis"}]]
-Bot.sendInlineKeyboardToChatWithId(2016839211,button,"*User deposited through CoinPayment\n\nTranslation Id =* "+message+"\n*Name =* _"+user.first_name+"_\n🔰 *Username =* _@"+user.username+"_\n🆔 *User ID =* `"+user.telegramid+"`\n📛 *User Link =* ["+user.first_name+"](tg://user?id="+user.telegramid+")")}
+Bot.sendInlineKeyboardToChatWithId(6547961721,button,"*User deposited through CoinPayment\n\nTranslation Id =* "+message+"\n*Name =* _"+user.first_name+"_\n🔰 *Username =* _@"+user.username+"_\n🆔 *User ID =* `"+user.telegramid+"`\n📛 *User Link =* ["+user.first_name+"](tg://user?id="+user.telegramid+")")}
 
