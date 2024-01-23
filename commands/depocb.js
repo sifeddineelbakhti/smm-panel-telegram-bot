@@ -12,7 +12,7 @@
   aliases: 
 CMD*/
 
-if(user.telegramid!="2016839211"){
+if(user.telegramid!="6547961721"){
 Bot.sendMessage('u r not a admin')
 return}
 var curr = Bot.getProperty("curr")
