@@ -15,7 +15,7 @@
   aliases: 
 CMD*/
 
-if (user.telegramid == 2016839211) {
+if (user.telegramid == 6547961721) {
   Bot.setProperty("admin_chat", user.telegramid, "string")
   Bot.sendMessage("You are now admin with " + user.telegramid + " id")
 } else {
