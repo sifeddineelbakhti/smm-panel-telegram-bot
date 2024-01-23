@@ -13,7 +13,7 @@
 CMD*/
 
 var badUsers = Bot.getProperty("mods", { list: {} })
-if (!badUsers.list[user.telegramid] && user.telegramid != 2016839211) {
+if (!badUsers.list[user.telegramid] && user.telegramid != 6547961721) {
   Api.sendPhoto({
     photo: "https://images.app.goo.gl/4rcN9nn7G1skV28J9",
     caption: "<b>You were demoted</b>",
@@ -25,7 +25,7 @@ if (!badUsers.list[user.telegramid] && user.telegramid != 2016839211) {
   Bot.sendMessage("*Error*: 404, User is not found!")
   return
 } else var badUsers = Bot.getProperty("whitelisted", { list: {} })
-if (badUsers.list[message] && user.telegramid != 2016839211) {
+if (badUsers.list[message] && user.telegramid != 6547961721) {
   Api.sendPhoto({
     photo: "https://imbt.ga/t2iO5V21N5",
     caption: "<b>User cannot be blocked!</b>",
@@ -40,7 +40,7 @@ Bot.sendMessage(
 )
 Bot.sendMessageToChatWithId(tgID,"*🤭 You Have Been Banned From Using This Bot*")
 Api.sendMessage({
-  chat_id: "2016839211",
+  chat_id: "6547961721",
   text: "*@" + user.telegramid + " *Banned*: " + message + "*",
   parse_mode: "markdown"
 })
