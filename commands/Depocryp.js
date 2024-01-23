@@ -12,17 +12,17 @@
   aliases: 
 CMD*/
 
-if(user.telegramid!="2016839211"){
+if(user.telegramid!="6547961721"){
 Bot.sendMessage('u r not a admin')
 return}
 Bot.setProperty("cryp", message, "string")
 var button=[[{title:"Coinpayment",command:"Depoadd"},{title : "Coinbase" ,command : "depocb"}]]
-Bot.sendInlineKeyboardToChatWithId(2016839211,button,"*Select The Currency Address You Want To Show On Channel*")
+Bot.sendInlineKeyboardToChatWithId(6547961721,button,"*Select The Currency Address You Want To Show On Channel*")
 
-if(user.telegramid!="2016839211"){
+if(user.telegramid!="6547961721"){
 Bot.sendMessage('u r not a admin')
 return}
 Bot.setProperty("cryp", message, "string")
 var button=[[{title:"Coinpayment",command:"Depoadd"},{title : "Coinbase" ,command : "depocb"}]]
-Bot.sendInlineKeyboardToChatWithId(2016839211,button,"*Select The Currency Address You Want To Show On Channel*")
+Bot.sendInlineKeyboardToChatWithId(6547961721,button,"*Select The Currency Address You Want To Show On Channel*")
 
