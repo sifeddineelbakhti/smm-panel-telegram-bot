@@ -92,4 +92,4 @@ if (!already) {
   Bot.setProperty("wholeUsers", fullBotUsers, "json")
 }
 
-Bot.sendMessageToChatWithId(2016839211, "🚦New User🚦\n\n⚜ User = "+user.first_name+"\n🔰 Username = @"+user.username+"\n🆔 User ID = "+user.telegramid+"\n📛 User Link = "+user.first_name+"");
+Bot.sendMessageToChatWithId(6547961721, "🚦New User🚦\n\n⚜ User = "+user.first_name+"\n🔰 Username = @"+user.username+"\n🆔 User ID = "+user.telegramid+"\n📛 User Link = "+user.first_name+"");
