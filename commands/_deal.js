@@ -12,7 +12,7 @@
   aliases: 
 CMD*/
 
-if (user.telegramid == 2016839211){
+if (user.telegramid == 6547961721){
 BBAdmin.installBot({
   email: message,
   bot_id: bot.id
